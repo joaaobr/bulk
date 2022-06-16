@@ -3,14 +3,27 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaaobr/bulk.git"
+  },
   "keywords": [
-    "http",
     "web",
+    "http",
     "framework"
   ],
-  "author": "",
-  "license": "ISC"
+  "author": "João Victor Dos Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaaobr/bulk/issues"
+  },
+  "homepage": "https://github.com/joaaobr/bulk#readme"
 }
