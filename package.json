@@ -7,7 +7,6 @@
     "lib": "lib",
     "test": "test"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/joaaobr/bulk/issues"
   },
-  "homepage": "https://github.com/joaaobr/bulk#readme"
+  "homepage": "https://github.com/joaaobr/bulk#readme",
+  "dependencies": {
+    "url": "^0.11.0"
+  }
 }
