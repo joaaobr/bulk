@@ -1,5 +1,5 @@
-const bulkFrameworkListen = require('./lib/listen')
-const bulkFrameworkGet = require('./lib/get')
+const bulkListen = require('./lib/listen')
+const bulkGet = require('./lib/get')
 
-exports.get = bulkFrameworkGet.get
-exports.listen = bulkFrameworkListen.listen
+exports.get = bulkGet.get
+exports.listen = bulkListen.listen
